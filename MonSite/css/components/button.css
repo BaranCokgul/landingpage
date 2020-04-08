@@ -1,0 +1,41 @@
+
+/*What our consumers say*/ /*CAROUSEL*/
+
+ /*Permet de cotrôler les boutons sur les côtés du carousel de la section " What our consumers say"*/
+ .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+  }
+
+			/*PORTFOLIO*/ /*CARD*/
+
+			 /*Permet de contrôler le bouton "Sign up" dans les cards du Pricing*/
+
+										  .panel-footer .btn {
+										    margin: 15px 0;
+										    background-color: #f4511e;
+										    color: #fff;
+										  }
+
+			/*Permet de contrôler le bouton " Sign Up" dans les cards du Princing lorsque la souris est dessus*/
+		.panel-footer .btn:hover {
+		    border: 1px solid #f4511e;
+		    background-color: #fff !important;
+		    color: #f4511e;
+		  }
+
+.btn-primary{
+	background-color:#90EE90;
+	border-color: #90EE90;
+	margin-bottom: 10px;
+}
+
+.btn-danger{
+	background-color: lighter red;
+	box-shadow: white;
+	
+}
+.btn-danger:hover{
+	background-color: #90EE90;
+	border-color: #90EE90;
+}

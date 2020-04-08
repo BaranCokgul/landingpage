@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+
+.newpage{
+    color: white;
+    font-family: Lato, sans-serif;
+        padding: 300px;
+  }
+
+ body{
+ 	background-color: #90EE90;
+ }

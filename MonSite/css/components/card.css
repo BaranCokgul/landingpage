@@ -1,0 +1,73 @@
+
+/*PORTFOLIO*/
+
+/*Permet de jouer sur les 3 cards de la section " Portfolio" */
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+
+/* Permet de jouer sur les images dans les 3 cards de la section "Portfolio", toutefois il faut choisir des photos viables et remplacer le lien dans le fichier html*/
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+
+  /*PRICING*/
+
+  /*Permet de contrôler la partie du panel des prix ( dans la section Princing) entre le header et le footer*/
+  .panel {
+    border: 1px solid #f4511e; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+
+/*Permet de contrôler l'header des card du pricing*/
+  .panel-heading {
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+/*Permet de contrôler l'header des cards du pricing*/
+  .panel-footer {
+    background-color: white !important;
+  }
+
+		/* Hover du Princing*/ 
+
+		/*Permet de contrôler le panel lorsque la souris est dessus ( ici en l'occurence on rajoute une ombre plutot gris)*/
+		  .panel:hover {
+		    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+		  }
+
+		
+
+ 										/* Componets des panels du Princing */
+
+										/*Permet de contrôler le "prix affiché" dans le footer de la card */
+										  .panel-footer h3 {
+										    font-size: 32px;
+										  }
+
+										/*Permet de contrôler le "per month" dans le footer de la card*/
+										  .panel-footer h4 {
+										    color: #aaa;
+										    font-size: 14px;
+										  }
+
+
+.card{
+  box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 5px; 
+}							  
+.card-img-top{
+  border-radius: 7px;
+}

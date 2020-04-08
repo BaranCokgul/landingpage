@@ -1,0 +1,45 @@
+
+/* Permet de contrôler la navbar dans sa forme et son espacement*/
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #90EE90;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+
+/* Permet de contrôler les items de la navbar (De "About" à "Contact" et le logo*/
+
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+
+/*Permet de contrôler les items de la navbar (or logo) lorsque la souris est dessus*/
+
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #90EE90 !important;
+    background-color: #fff !important;
+  }
+
+/*En lien avec le logo mais je ne sai pas précisément quoi*/
+
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+
+  .navbar img{
+        margin: -17px;
+  }
+
+  .navbar-brand a {
+    letter-spacing: normal;
+    font-weight: 20px;
+
+  }
+  

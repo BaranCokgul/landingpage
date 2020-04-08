@@ -1,0 +1,12 @@
+/* L'item tout en bas en forme de chapeau chinois qui permet de remonter tout en haut*/
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+  }
+
+.col-sm-5{
+	text-align: center;
+    display: contents;
+}

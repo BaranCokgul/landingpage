@@ -1,0 +1,27 @@
+
+/*Permet d'ajuster la couleur et la police de chaque logo dans la partie "Services"*/
+
+.logo-small { 
+    color: #f4511e;
+    font-size: 50px;
+  }
+
+ /*Concerne les logos au format plus grand se situant dans "About Company Page" et "Our values"*/ 
+  .logo {
+    color: #90EE90;
+    font-size: 200px;
+  }
+  
+.glyphicon-signal{ /* LOGO LIVRE LE PROJET*/
+	left: 165px;
+    top: 188px;
+}
+
+.glyphicon-globe{ /*LOGO GLOBE*/
+	top: 30px;
+	left: 50px;
+}
+
+.glyphicon{
+	color: #90EE90;
+}

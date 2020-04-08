@@ -1,0 +1,28 @@
+ 
+/*What our consumers say*/
+
+
+  /* Permet de contrôler les petits indicateurs inactifs (conçernant un carrousel sur lequel la page n'est pas) en dessosu du carousel de la section "What our consumers say"*/
+  .carousel-indicators li {
+    border-color: #f4511e;
+  }
+
+  /* Permet de contrôler l'indicateur actif ( concernant un carrousel lequel la page est). Pour le moment, cette classe permet de mettre en lumière le carrousel sur lequel on est */
+  .carousel-indicators li.active {
+    background-color: #f4511e;
+  }
+
+  /* Permet de contrôler l'écriture dans le carrousel de la section " What our conumers say"*/
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+
+/*Permet de contrôler le nom en bas des textes du carousel ( les noms des personnes qui font une critique)*/
+    .item span {
+    font-style: normal;
+  }
+

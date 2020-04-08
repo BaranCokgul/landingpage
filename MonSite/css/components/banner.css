@@ -1,0 +1,6 @@
+.jumbotron { /*Ca concerne la bannière ( juste après la navbar)*/
+    background-color: #90EE90;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: 'Open Sans', sans-serif;
+  }
